@@ -1,0 +1,46 @@
+.table {
+  background-color: #dcccff;
+  color:  black;
+  font-family: apple chancery;
+  width: 100%;
+  font-weight: bold;
+  font-size: 170%;
+  margin-top: 50px;
+  }
+h2 {
+  color: #800000;
+  text-align: center;
+  font-size: 245%;
+  font-family: apple chancery;
+}
+.more {
+  text-align: center;
+}
+.table, th, td {
+  border: 3px solid  #4d0099;
+  }
+body {
+  background-color: #ff4d4d;
+  }
+.date {
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 185px;
+ margin-bottom: 40px;
+ display: block;
+ text-align: center;
+  }
+img {
+  margin-top: 20px;
+  }
+td {
+  text-align: center;
+}
+th {
+  font-size: 130%;
+}
+.centerClass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
