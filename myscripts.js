@@ -2,6 +2,10 @@ const videoButton = document.getElementById("videoButton");
 const balePic = document.getElementById("balePic");
 const trivia = document.getElementById("trivia");
 const baleVideo = document.getElementById("baleVideo")
+const tableButton = document.getElementById("tableButton")
+const movieTable = document.getElementById("movieTable")
+const titleInput = document.getElementById("titleInput")
+const yearInput = document.getElementById("yearInput")
 //create baleVideo, videoButton, movieTable, titleInput, yearInput and trivia variables for DOM manipulation using above code as reference
 
 
@@ -33,6 +37,8 @@ trivia.addEventListener("click", function(){
 });
 
 videoButton.addEventListener("click", function(){
+  balePic.classList.toggle("displayClass");
+  baleVideo.classList.toggle("displayClass");
 });
 //toggle balePic and baleVideo classes with button functionality
 

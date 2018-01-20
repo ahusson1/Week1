@@ -2,19 +2,23 @@
   background-color: #dcccff;
   color:  black;
   font-family: apple chancery;
-  width: 100%;
+  width: 75%;
   font-weight: bold;
   font-size: 170%;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   }
 h2 {
   color: #800000;
   text-align: center;
-  font-size: 245%;
+  font-size: 300%;
   font-family: apple chancery;
 }
 .more {
   text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
 }
 .table, th, td {
   border: 3px solid  #4d0099;
@@ -29,8 +33,9 @@ body {
  margin-bottom: 40px;
  display: block;
  text-align: center;
+ font-size: 130%;
   }
-img {
+img, iframe {
   margin-top: 20px;
   }
 td {
@@ -43,4 +48,40 @@ th {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: helvetica;
+  margin-top: 20px;
+}
+.tableClass {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: helvetica;
+  }
+.titleClass {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: helvetica;
+}
+.yearClass{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: helvetica;
+}
+.displayClass{
+  display: none;
+}
+.tableButton{
+  margin-top: 30px;
 }
